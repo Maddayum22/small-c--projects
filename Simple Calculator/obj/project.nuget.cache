@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "K5vVxao+DeqNIAInHz8bzfX+bIKSgKVGEKcjt8aeNrjwKAHtsG/VK9tcO81q8RaAd7LsVHmZRLc9qr7+YFjJ1Q==",
+  "dgSpecHash": "PcqwlzOMpOEX51MJ5fswEobk1XyCwga4MILn8oB3bbgFoiKx0FA3BTrY887+TeZTA86PX+FDGl+6ADdju78jaA==",
   "success": true,
-  "projectFilePath": "C:\\Maddy\\semester-3\\Simple Calculator\\Simple Calculator.csproj",
+  "projectFilePath": "C:\\Maddy\\semester-3\\small-c#-projects\\Simple Calculator\\Simple Calculator.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
