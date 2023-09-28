@@ -1,16 +1,23 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.IO;
 
 namespace WordUnscrambler.workers
 {
-    internal class FileReader
+    public class FileReader
     {
         internal string[] Read(string wordListFileName)
         {
-            throw new NotImplementedException();
+            string[] fileContent;
+            try
+            {
+                fileContent = File.ReadAllLines(wordListFileName);
+
+            } catch (Exception ex)
+            {
+                Console.WriteLine(Constants.WordListNotFound);
+                throw new Exception(ex.Message);
+            }
+            return fileContent;
         }
     }
 }

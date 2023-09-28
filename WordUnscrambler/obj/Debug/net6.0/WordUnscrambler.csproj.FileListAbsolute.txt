@@ -3,3 +3,13 @@ C:\Maddy\semester-3\small-c#-projects\WordUnscrambler\obj\Debug\net6.0\WordUnscr
 C:\Maddy\semester-3\small-c#-projects\WordUnscrambler\obj\Debug\net6.0\WordUnscrambler.AssemblyInfoInputs.cache
 C:\Maddy\semester-3\small-c#-projects\WordUnscrambler\obj\Debug\net6.0\WordUnscrambler.AssemblyInfo.cs
 C:\Maddy\semester-3\small-c#-projects\WordUnscrambler\obj\Debug\net6.0\WordUnscrambler.csproj.CoreCompileInputs.cache
+C:\Maddy\semester-3\small-c#-projects\WordUnscrambler\bin\Debug\net6.0\WordUnscrambler.exe
+C:\Maddy\semester-3\small-c#-projects\WordUnscrambler\bin\Debug\net6.0\WordUnscrambler.deps.json
+C:\Maddy\semester-3\small-c#-projects\WordUnscrambler\bin\Debug\net6.0\WordUnscrambler.runtimeconfig.json
+C:\Maddy\semester-3\small-c#-projects\WordUnscrambler\bin\Debug\net6.0\WordUnscrambler.dll
+C:\Maddy\semester-3\small-c#-projects\WordUnscrambler\bin\Debug\net6.0\WordUnscrambler.pdb
+C:\Maddy\semester-3\small-c#-projects\WordUnscrambler\obj\Debug\net6.0\WordUnscrambler.dll
+C:\Maddy\semester-3\small-c#-projects\WordUnscrambler\obj\Debug\net6.0\refint\WordUnscrambler.dll
+C:\Maddy\semester-3\small-c#-projects\WordUnscrambler\obj\Debug\net6.0\WordUnscrambler.pdb
+C:\Maddy\semester-3\small-c#-projects\WordUnscrambler\obj\Debug\net6.0\WordUnscrambler.genruntimeconfig.cache
+C:\Maddy\semester-3\small-c#-projects\WordUnscrambler\obj\Debug\net6.0\ref\WordUnscrambler.dll

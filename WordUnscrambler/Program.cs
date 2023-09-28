@@ -12,28 +12,27 @@ namespace WordUnscrambler
     {
         private static readonly FileReader _fileReader = new FileReader();
         private static readonly WordMatcher _wordMatcher = new WordMatcher();
-        private const string wordListFileName = "wordlist.txt";
         static void Main(string[] args)
         {
             bool continueWordUnscramble = true;
 
             do
             {
-                Console.WriteLine("Please enter option: F for File, M for Manual");
+                Console.WriteLine(Constants.optionsOnHowToEnterScrambledWords);
                 var option = Console.ReadLine() ?? string.Empty;
 
                 switch (option.ToUpper())
                 {
                     case "F":
-                        Console.Write("Enter scrambled words file name: ");
+                        Console.Write(Constants.enterScrambledWordsViaFile);
                         ExecuteFileScenario();
                         break;
                     case "M":
-                        Console.Write("Enter scrambled words manually: ");
+                        Console.Write(Constants.enterScrambledWordsManually);
                         ExecuteManualScenario();
                         break;
                     default:
-                        Console.Write("Option was not recognized.");
+                        Console.Write(Constants.enterScrambledWordsOptionNotRecognized);
                         break;
                 }
 
@@ -70,7 +69,7 @@ namespace WordUnscrambler
 
         private static void DisplayScrambledUnmatchedWords(string[] scrambledWords)
         {
-            string[] wordList = _fileReader.Read(wordListFileName);
+            string[] wordList = _fileReader.Read(Constants.wordListFileName);
 
             List<MatchedWord> matchedWords = _wordMatcher.Match(scrambledWords, wordList);
 
@@ -78,11 +77,11 @@ namespace WordUnscrambler
             {
                 foreach (var matchedWord in matchedWords)
                 {
-                    Console.WriteLine("Match found for {0}: {1}", matchedWord.ScrambledWord, matchedWord.Word);
+                    Console.WriteLine(Constants.matchedFound, matchedWord.ScrambledWord, matchedWord.Word);
                 }
             } else
             {
-                Console.WriteLine("No matched words have been found");
+                Console.WriteLine(Constants.noMatchedWordsFound);
             }
         }
     }
