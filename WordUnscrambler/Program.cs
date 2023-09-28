@@ -3,11 +3,16 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using WordUnscrambler.workers;
+using WordUnscrambler.data;
 
 namespace WordUnscrambler
 {
     class Program
     {
+        private static readonly FileReader _fileReader = new FileReader();
+        private static readonly WordMatcher _wordMatcher = new WordMatcher();
+        private const string wordListFileName = "wordlist.txt";
         static void Main(string[] args)
         {
             bool continueWordUnscramble = true;
@@ -50,12 +55,35 @@ namespace WordUnscrambler
 
         private static void ExecuteManualScenario()
         {
-            throw new NotImplementedException();
+            var manualInput = Console.ReadLine() ?? string.Empty;
+            string[] scrambledWords = manualInput.Split(',');
+            DisplayScrambledUnmatchedWords(scrambledWords);
+
         }
 
         private static void ExecuteFileScenario()
         {
-            throw new NotImplementedException();
+            var filename = Console.ReadLine() ?? string.Empty;
+            string[] scrambledWords = _fileReader.Read(filename);
+            DisplayScrambledUnmatchedWords(scrambledWords);
+        }
+
+        private static void DisplayScrambledUnmatchedWords(string[] scrambledWords)
+        {
+            string[] wordList = _fileReader.Read(wordListFileName);
+
+            List<MatchedWord> matchedWords = _wordMatcher.Match(scrambledWords, wordList);
+
+            if (matchedWords.Any())
+            {
+                foreach (var matchedWord in matchedWords)
+                {
+                    Console.WriteLine("Match found for {0}: {1}", matchedWord.ScrambledWord, matchedWord.Word);
+                }
+            } else
+            {
+                Console.WriteLine("No matched words have been found");
+            }
         }
     }
 }

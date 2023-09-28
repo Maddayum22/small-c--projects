@@ -1,0 +1,5 @@
+C:\Maddy\semester-3\small-c#-projects\WordUnscrambler\obj\Debug\net6.0\WordUnscrambler.csproj.AssemblyReference.cache
+C:\Maddy\semester-3\small-c#-projects\WordUnscrambler\obj\Debug\net6.0\WordUnscrambler.GeneratedMSBuildEditorConfig.editorconfig
+C:\Maddy\semester-3\small-c#-projects\WordUnscrambler\obj\Debug\net6.0\WordUnscrambler.AssemblyInfoInputs.cache
+C:\Maddy\semester-3\small-c#-projects\WordUnscrambler\obj\Debug\net6.0\WordUnscrambler.AssemblyInfo.cs
+C:\Maddy\semester-3\small-c#-projects\WordUnscrambler\obj\Debug\net6.0\WordUnscrambler.csproj.CoreCompileInputs.cache
