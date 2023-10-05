@@ -8,7 +8,7 @@ using WordUnscrambler.data;
 
 namespace WordUnscrambler.workers
 {
-    internal class WordMatcher
+    public class WordMatcher
     {
         public List<MatchedWord> Match(string[] scrambledWords, string[] wordList)
         {

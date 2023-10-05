@@ -32,7 +32,7 @@ namespace WordUnscrambler
                         ExecuteManualScenario();
                         break;
                     default:
-                        Console.Write(Constants.enterScrambledWordsOptionNotRecognized);
+                        Console.WriteLine(Constants.enterScrambledWordsOptionNotRecognized);
                         break;
                 }
 
