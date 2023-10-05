@@ -1,0 +1,15 @@
+C:\Maddy\semester-3\small-c#-projects\MarktplaatsWebScraper\bin\Debug\net6.0\MarktplaatsWebScraper.exe
+C:\Maddy\semester-3\small-c#-projects\MarktplaatsWebScraper\bin\Debug\net6.0\MarktplaatsWebScraper.deps.json
+C:\Maddy\semester-3\small-c#-projects\MarktplaatsWebScraper\bin\Debug\net6.0\MarktplaatsWebScraper.runtimeconfig.json
+C:\Maddy\semester-3\small-c#-projects\MarktplaatsWebScraper\bin\Debug\net6.0\MarktplaatsWebScraper.dll
+C:\Maddy\semester-3\small-c#-projects\MarktplaatsWebScraper\bin\Debug\net6.0\MarktplaatsWebScraper.pdb
+C:\Maddy\semester-3\small-c#-projects\MarktplaatsWebScraper\obj\Debug\net6.0\MarktplaatsWebScraper.csproj.AssemblyReference.cache
+C:\Maddy\semester-3\small-c#-projects\MarktplaatsWebScraper\obj\Debug\net6.0\MarktplaatsWebScraper.GeneratedMSBuildEditorConfig.editorconfig
+C:\Maddy\semester-3\small-c#-projects\MarktplaatsWebScraper\obj\Debug\net6.0\MarktplaatsWebScraper.AssemblyInfoInputs.cache
+C:\Maddy\semester-3\small-c#-projects\MarktplaatsWebScraper\obj\Debug\net6.0\MarktplaatsWebScraper.AssemblyInfo.cs
+C:\Maddy\semester-3\small-c#-projects\MarktplaatsWebScraper\obj\Debug\net6.0\MarktplaatsWebScraper.csproj.CoreCompileInputs.cache
+C:\Maddy\semester-3\small-c#-projects\MarktplaatsWebScraper\obj\Debug\net6.0\MarktplaatsWebScraper.dll
+C:\Maddy\semester-3\small-c#-projects\MarktplaatsWebScraper\obj\Debug\net6.0\refint\MarktplaatsWebScraper.dll
+C:\Maddy\semester-3\small-c#-projects\MarktplaatsWebScraper\obj\Debug\net6.0\MarktplaatsWebScraper.pdb
+C:\Maddy\semester-3\small-c#-projects\MarktplaatsWebScraper\obj\Debug\net6.0\MarktplaatsWebScraper.genruntimeconfig.cache
+C:\Maddy\semester-3\small-c#-projects\MarktplaatsWebScraper\obj\Debug\net6.0\ref\MarktplaatsWebScraper.dll

@@ -1,0 +1,12 @@
+C:\Maddy\semester-3\small-c#-projects\SimpleWebScraper\bin\Debug\net6.0\SimpleWebScraper.deps.json
+C:\Maddy\semester-3\small-c#-projects\SimpleWebScraper\bin\Debug\net6.0\SimpleWebScraper.dll
+C:\Maddy\semester-3\small-c#-projects\SimpleWebScraper\bin\Debug\net6.0\SimpleWebScraper.pdb
+C:\Maddy\semester-3\small-c#-projects\SimpleWebScraper\obj\Debug\net6.0\SimpleWebScraper.csproj.AssemblyReference.cache
+C:\Maddy\semester-3\small-c#-projects\SimpleWebScraper\obj\Debug\net6.0\SimpleWebScraper.GeneratedMSBuildEditorConfig.editorconfig
+C:\Maddy\semester-3\small-c#-projects\SimpleWebScraper\obj\Debug\net6.0\SimpleWebScraper.AssemblyInfoInputs.cache
+C:\Maddy\semester-3\small-c#-projects\SimpleWebScraper\obj\Debug\net6.0\SimpleWebScraper.AssemblyInfo.cs
+C:\Maddy\semester-3\small-c#-projects\SimpleWebScraper\obj\Debug\net6.0\SimpleWebScraper.csproj.CoreCompileInputs.cache
+C:\Maddy\semester-3\small-c#-projects\SimpleWebScraper\obj\Debug\net6.0\SimpleWebScraper.dll
+C:\Maddy\semester-3\small-c#-projects\SimpleWebScraper\obj\Debug\net6.0\refint\SimpleWebScraper.dll
+C:\Maddy\semester-3\small-c#-projects\SimpleWebScraper\obj\Debug\net6.0\SimpleWebScraper.pdb
+C:\Maddy\semester-3\small-c#-projects\SimpleWebScraper\obj\Debug\net6.0\ref\SimpleWebScraper.dll
