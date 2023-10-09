@@ -1,0 +1,15 @@
+C:\Maddy\semester-3\small-c#-projects\SudokuSolver\bin\Debug\net6.0\SudokuSolver.exe
+C:\Maddy\semester-3\small-c#-projects\SudokuSolver\bin\Debug\net6.0\SudokuSolver.deps.json
+C:\Maddy\semester-3\small-c#-projects\SudokuSolver\bin\Debug\net6.0\SudokuSolver.runtimeconfig.json
+C:\Maddy\semester-3\small-c#-projects\SudokuSolver\bin\Debug\net6.0\SudokuSolver.dll
+C:\Maddy\semester-3\small-c#-projects\SudokuSolver\bin\Debug\net6.0\SudokuSolver.pdb
+C:\Maddy\semester-3\small-c#-projects\SudokuSolver\obj\Debug\net6.0\SudokuSolver.csproj.AssemblyReference.cache
+C:\Maddy\semester-3\small-c#-projects\SudokuSolver\obj\Debug\net6.0\SudokuSolver.GeneratedMSBuildEditorConfig.editorconfig
+C:\Maddy\semester-3\small-c#-projects\SudokuSolver\obj\Debug\net6.0\SudokuSolver.AssemblyInfoInputs.cache
+C:\Maddy\semester-3\small-c#-projects\SudokuSolver\obj\Debug\net6.0\SudokuSolver.AssemblyInfo.cs
+C:\Maddy\semester-3\small-c#-projects\SudokuSolver\obj\Debug\net6.0\SudokuSolver.csproj.CoreCompileInputs.cache
+C:\Maddy\semester-3\small-c#-projects\SudokuSolver\obj\Debug\net6.0\SudokuSolver.dll
+C:\Maddy\semester-3\small-c#-projects\SudokuSolver\obj\Debug\net6.0\refint\SudokuSolver.dll
+C:\Maddy\semester-3\small-c#-projects\SudokuSolver\obj\Debug\net6.0\SudokuSolver.pdb
+C:\Maddy\semester-3\small-c#-projects\SudokuSolver\obj\Debug\net6.0\SudokuSolver.genruntimeconfig.cache
+C:\Maddy\semester-3\small-c#-projects\SudokuSolver\obj\Debug\net6.0\ref\SudokuSolver.dll
