@@ -49,7 +49,7 @@ namespace SudokuSolver.Strategies
         {
             if (!HasNakedPairInCol(sudokuBoard, givenRow, givenCol)) return;
 
-            for (int row = 0; row < sudokuBoard.GetLength(1); row++)
+            for (int row = 0; row < sudokuBoard.GetLength(0); row++)
             {
                 if (sudokuBoard[row, givenCol] != sudokuBoard[givenCol, givenCol] && sudokuBoard[row, givenCol].ToString().Length > 1)
                 {
@@ -86,7 +86,7 @@ namespace SudokuSolver.Strategies
                     var elementInSameBlock = _mapper.Find(givenRow, givenCol).StartRow == _mapper.Find(row, col).StartRow
                         && _mapper.Find(givenRow, givenCol).StartCol == _mapper.Find(row, col).StartCol;
 
-                    if (!elementSame && elementInSameBlock && !IsNakedPair(sudokuBoard[givenRow, givenCol], sudokuBoard[row, col])) return true;
+                    if (!elementSame && elementInSameBlock && IsNakedPair(sudokuBoard[givenRow, givenCol], sudokuBoard[row, col])) return true;
                 }
             }
             return false;
@@ -104,7 +104,7 @@ namespace SudokuSolver.Strategies
 
         private bool HasNakedPairInCol(int[,] sudokuBoard, int givenRow, int givenCol)
         {
-            for (int row = 0; row < sudokuBoard.GetLength(1); row++)
+            for (int row = 0; row < sudokuBoard.GetLength(0); row++)
             {
                 if (givenRow != row && IsNakedPair(sudokuBoard[row, givenCol], sudokuBoard[givenRow, givenCol])) return true;
             }

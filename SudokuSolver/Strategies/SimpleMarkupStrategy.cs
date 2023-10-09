@@ -49,9 +49,9 @@ namespace SudokuSolver.Strategies
             int[] possibilites = { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
             var sudokuMap = _mapper.Find(givenRow, givenCol);
 
-            for (int row = sudokuMap.StartRow; row < sudokuMap.StartRow + 2; row++)
+            for (int row = sudokuMap.StartRow; row <= sudokuMap.StartRow + 2; row++)
             {
-                for (int col = sudokuMap.StartCol; col < sudokuMap.StartCol + 2; col++)
+                for (int col = sudokuMap.StartCol; col <= sudokuMap.StartCol + 2; col++)
                 {
                     if (isValidSingle(sudokuBoard[row, col])) possibilites[sudokuBoard[row, col] -1 ] = 0;
 
